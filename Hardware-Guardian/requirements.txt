@@ -1,0 +1,13 @@
+# Hardware & Ergonomics Guardian — Python dependencies
+# Install with: pip install -r requirements.txt
+
+# Core monitoring
+psutil>=5.9.0          # CPU, RAM, disk, network, process stats
+GPUtil>=1.4.0          # NVIDIA GPU stats (optional, skip if no NVIDIA GPU)
+
+# Modern dark-theme UI
+customtkinter>=5.2.0   # Tkinter wrapper with built-in dark mode
+Pillow>=10.0.0         # Image support for customtkinter icons
+
+# Desktop notifications (cross-platform)
+plyer>=2.1.0           # Native OS notification popups
